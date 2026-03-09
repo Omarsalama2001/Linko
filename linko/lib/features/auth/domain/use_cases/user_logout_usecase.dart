@@ -1,0 +1,15 @@
+import 'package:Linko/core/error/faliure.dart';
+import 'package:Linko/features/auth/domain/repositories/auth_repository.dart';
+import 'package:dartz/dartz.dart';
+
+class UserLogoutUsecase {
+  final AuthRepository authRepository;
+
+  UserLogoutUsecase({
+    required this.authRepository,
+  });
+
+  Future<Either<Failure, Unit>> call() {
+    return authRepository.logout();
+  }
+}

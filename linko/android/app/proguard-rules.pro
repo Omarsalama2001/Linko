@@ -1,0 +1,3 @@
+-keep class **.zego.**  { *; }
+-dontwarn com.google.**
+-keep class com.google.** {*;}

@@ -1,0 +1,41 @@
+plugins {
+    id "com.android.application"
+    id "org.jetbrains.kotlin.android"
+    id "dev.flutter.flutter-gradle-plugin"
+
+    // Uncomment only if you actually use Firebase/Google Services
+    // id "com.google.gms.google-services"
+}
+
+android {
+    namespace "com.example.Linko"   // <-- change to your package/namespace
+    compileSdk flutter.compileSdkVersion
+    ndkVersion flutter.ndkVersion
+
+    defaultConfig {
+        applicationId "com.example.Linko"  // <-- change to your app id
+        minSdk flutter.minSdkVersion
+        targetSdk flutter.targetSdkVersion
+        versionCode flutter.versionCode
+        versionName flutter.versionName
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+}
+
+flutter {
+    source "../.."
+}
+
+dependencies {
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-messaging:23.2.1' 
+    implementation 'im.zego:zpns-fcm:2.8.0' 
+}
