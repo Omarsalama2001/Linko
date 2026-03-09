@@ -1,39 +1,42 @@
-## Linko Mobile App
+# Linko Mobile App
+> A Flutter-based live streaming and chat application powered by ZegoCloud & Firebase
 
 <p align="center">
   <img src="https://imgs.search.brave.com/2lyRE-4XshkbU5dXMWjGUX_6KQQ7s5khROzKVASuoE8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4z/ZC5pY29uc2NvdXQu/Y29tLzNkL2ZyZWUv/dGh1bWIvZnJlZS1m/bHV0dGVyLWxvZ28t/M2QtaWNvbi1wbmct/ZG93bmxvYWQtNDY0/Mjc2MS5wbmc" 
        width="300" 
-       alt="Islamina Logo"/>
+       alt="Linko Logo"/>
 </p>
 
-
-
+## 📱 Screenshots
 
 ### 🔐 Authentication
 
 #### Login
 | Login | Forgot Password |
 |-------|-----------------|
-| <img src="https://raw.githubusercontent.com/Omarsalama2001/Linko/main/linko/lib/assets/screenshots/login_image-portrait.png" width="200"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/Linko/main/linko/lib/assets/screenshots/forget_password-portrait.png" width="200"> |
+| <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/login_image-portrait.png" width="200"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/forget_password-portrait.png" width="200"> |
 
 #### Sign Up
 | Sign Up | Pick Photo | Birth Date | Pick Country | Gender |
 |---------|------------|------------|--------------|--------|
-| <img src="https://raw.githubusercontent.com/Omarsalama2001/Linko/main/linko/lib/assets/screenshots/register_image-portrait.png" width="200"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/Linko/main/linko/lib/assets/screenshots/pickimage_image-portrait.png" width="200"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/Linko/main/linko/lib/assets/screenshots/pickbirthday_image-portrait.png" width="200"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/Linko/main/linko/lib/assets/screenshots/pickcountry_image-portrait.png" width="200"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/Linko/main/linko/lib/assets/screenshots/pickgender_image-portrait.png" width="200"> |
+| <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/register_image-portrait.png" width="200"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/pickimage_image-portrait.png" width="200"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/pickbirthday_image-portrait.png" width="200"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/pickcountry_image-portrait.png" width="200"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/pickgender_image-portrait.png" width="200"> |
+
 ### 🎥 Streaming
 | No Live | Users Available | Live Stream |
 |---------|-----------------|-------------|
-| <img src="https://raw.githubusercontent.com/Omarsalama2001/Linko/main/linko/lib/assets/screenshots/home_image-portrait.png" width="300"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/Linko/main/linko/lib/assets/screenshots/home2_image-portrait.png" width="300"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/Linko/main/linko/lib/assets/screenshots/live_image-portrait.png" width="300"> |
+| <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/home_image-portrait.png" width="300"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/home2_image-portrait.png" width="300"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/live_image-portrait.png" width="300"> |
+
 ### 💬 Lounge & Chat
 | Lounge | Messages | Chat |
 |--------|----------|------|
-| <img src="https://raw.githubusercontent.com/Omarsalama2001/Linko/main/linko/lib/assets/screenshots/lounge_image-portrait.png" width="300"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/Linko/main/linko/lib/assets/screenshots/messages_image-portrait.png" width="300"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/Linko/main/linko/lib/assets/screenshots/chat_image-portrait.png" width="300"> |
+| <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/lounge_image-portrait.png" width="300"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/messages_image-portrait.png" width="300"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/chat_image-portrait.png" width="300"> |
+
 ### 👤 Profile & Settings
 | Profile | Settings | Language |
 |---------|----------|----------|
-| <img src="https://raw.githubusercontent.com/Omarsalama2001/Linko/main/linko/lib/assets/screenshots/profile_image-portrait.png" width="300"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/Linko/main/linko/lib/assets/screenshots/setting_image-portrait.png" width="300"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/Linko/main/linko/lib/assets/screenshots/lang1_image-portrait.png" width="300"> |
+| <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/profile_image-portrait.png" width="300"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/setting_image-portrait.png" width="300"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/lang1_image-portrait.png" width="300"> |
 
-
+---
 
 ## ✨ Features
 
@@ -80,7 +83,7 @@
   </tr>
 </table>
 
-
+---
 
 ## 🏗️ Architecture
 
@@ -91,8 +94,10 @@ This app is built using **Clean Architecture** pattern, which separates the code
 | 📊 **Data** | Remote & Local data sources, Models, Repository implementations |
 | 🧠 **Domain** | Entities, Repository interfaces, Use cases (Business logic) |
 | 🎨 **Presentation** | UI Screens, Widgets, Bloc/Cubit State Management |
+
 <details>
 <summary>📂 View Full Project Structure</summary>
+
 ```
 📦 lib
 ...
@@ -100,7 +105,7 @@ This app is built using **Clean Architecture** pattern, which separates the code
 
 </details>
 
-
+---
 
 ## 🛠️ Tech Stack
 
@@ -208,6 +213,39 @@ This app is built using **Clean Architecture** pattern, which separates the code
 | `purchases_flutter` | In-app purchases |
 
 </details>
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Flutter SDK >= 3.4.1
+- Firebase Account
+- ZegoCloud Account
+
+### Installation
+1. Clone the repo
+   ```bash
+   git clone https://github.com/Omarsalama2001/Linko.git
+   ```
+2. Install dependencies
+   ```bash
+   flutter pub get
+   ```
+3. Create `.env` file and add your keys
+   ```
+  ZEGO_CHAT_APP_ID=your_chat_app_id_here
+  ZEGO_CHAT_APP_SIGN=your_chat_app_sign_here
+  ZEGO_LIVE_STREAMING_APP_ID=your_live_streaming_app_id_here
+  ZEGO_LIVE_STREAMING_APP_SIGN=your_live_streaming_app_sign_here
+   ```
+4. Run the app
+   ```bash
+   flutter run
+   ```
+
+---
+
 ## 📬 Contact
 
 <p align="left">
