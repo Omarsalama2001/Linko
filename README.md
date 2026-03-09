@@ -234,10 +234,10 @@ This app is built using **Clean Architecture** pattern, which separates the code
    ```
 3. Create `.env` file and add your keys
    ```
-  ZEGO_CHAT_APP_ID=your_chat_app_id_here
-  ZEGO_CHAT_APP_SIGN=your_chat_app_sign_here
-  ZEGO_LIVE_STREAMING_APP_ID=your_live_streaming_app_id_here
-  ZEGO_LIVE_STREAMING_APP_SIGN=your_live_streaming_app_sign_here
+   ZEGO_CHAT_APP_ID=your_chat_app_id_here
+   ZEGO_CHAT_APP_SIGN=your_chat_app_sign_here
+   ZEGO_LIVE_STREAMING_APP_ID=your_live_streaming_app_id_here
+   ZEGO_LIVE_STREAMING_APP_SIGN=your_live_streaming_app_sign_here
    ```
 4. Run the app
    ```bash
