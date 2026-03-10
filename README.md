@@ -1,40 +1,22 @@
-# Linko Mobile App
-> A Flutter-based live streaming and chat application powered by ZegoCloud & Firebase
-
 <p align="center">
-  <img src="https://imgs.search.brave.com/2lyRE-4XshkbU5dXMWjGUX_6KQQ7s5khROzKVASuoE8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4z/ZC5pY29uc2NvdXQu/Y29tLzNkL2ZyZWUv/dGh1bWIvZnJlZS1m/bHV0dGVyLWxvZ28t/M2QtaWNvbi1wbmct/ZG93bmxvYWQtNDY0/Mjc2MS5wbmc" 
-       width="300" 
+  <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/home2_image-portrait.png"
+       width="200" 
        alt="Linko Logo"/>
 </p>
 
-## 📱 Screenshots
+<h1 align="center">Linko</h1>
+<p align="center">
+  A Flutter-based live streaming and chat application powered by ZegoCloud & Firebase.
+</p>
 
-### 🔐 Authentication
-
-#### Login
-| Login | Forgot Password |
-|-------|-----------------|
-| <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/login_image-portrait.png" width="200"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/forget_password-portrait.png" width="200"> |
-
-#### Sign Up
-| Sign Up | Pick Photo | Birth Date | Pick Country | Gender |
-|---------|------------|------------|--------------|--------|
-| <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/register_image-portrait.png" width="200"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/pickimage_image-portrait.png" width="200"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/pickbirthday_image-portrait.png" width="200"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/pickcountry_image-portrait.png" width="200"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/pickgender_image-portrait.png" width="200"> |
-
-### 🎥 Streaming
-| No Live | Users Available | Live Stream |
-|---------|-----------------|-------------|
-| <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/home_image-portrait.png" width="300"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/home2_image-portrait.png" width="300"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/live_image-portrait.png" width="300"> |
-
-### 💬 Lounge & Chat
-| Lounge | Messages | Chat |
-|--------|----------|------|
-| <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/lounge_image-portrait.png" width="300"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/messages_image-portrait.png" width="300"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/chat_image-portrait.png" width="300"> |
-
-### 👤 Profile & Settings
-| Profile | Settings | Language |
-|---------|----------|----------|
-| <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/profile_image-portrait.png" width="300"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/setting_image-portrait.png" width="300"> | <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/lang1_image-portrait.png" width="300"> |
+<p align="center">
+  <a href="https://github.com/Omarsalama2001/Linko">
+    <img src="https://img.shields.io/badge/GitHub-View%20Code-100000?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <img src="https://img.shields.io/badge/Flutter-Mobile-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
+  <img src="https://img.shields.io/badge/ZegoCloud-Live%20Streaming-blue?style=for-the-badge"/>
+</p>
 
 ---
 
@@ -85,56 +67,19 @@
 
 ---
 
-## 🏗️ Architecture
-
-This app is built using **Clean Architecture** pattern, which separates the code into 3 main layers:
-
-| Layer | Responsibility |
-|-------|---------------|
-| 📊 **Data** | Remote & Local data sources, Models, Repository implementations |
-| 🧠 **Domain** | Entities, Repository interfaces, Use cases (Business logic) |
-| 🎨 **Presentation** | UI Screens, Widgets, Bloc/Cubit State Management |
-
-<details>
-<summary>📂 View Full Project Structure</summary>
-
-```
-📦 lib
-...
-```
-
-</details>
-
----
-
 ## 🛠️ Tech Stack
 
-<table>
-  <tr>
-    <td align="center" width="33.3%">
-      <h3>📱 Core</h3>
-      <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
-      <br/><br/>
-      <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
-    </td>
-    <td align="center" width="33.3%">
-      <h3>🔥 Backend & Database</h3>
-      <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
-      <br/><br/>
-      <img src="https://img.shields.io/badge/Cloud_Firestore-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
-    </td>
-    <td align="center" width="33.3%">
-      <h3>🎯 State Management</h3>
-      <img src="https://img.shields.io/badge/Flutter_Bloc-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
-      <br/><br/>
-      <img src="https://img.shields.io/badge/GetX-8B0000?style=for-the-badge&logo=flutter&logoColor=white"/>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Flutter_Bloc-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GetX-8B0000?style=for-the-badge&logo=flutter&logoColor=white"/>
+</p>
 
 ---
 
-### 📦 Packages & Libraries
+### 📦 Key Packages
 
 <details>
 <summary>🔍 View All Packages</summary>
@@ -196,8 +141,6 @@ This app is built using **Clean Architecture** pattern, which separates the code
 | `flutter_card_swiper` | Card swipe UI |
 | `auto_size_text` | Auto-sizing text widget |
 | `country_picker` | Country selection picker |
-| `country_code_picker` | Country code selector |
-| `country_flags` | Country flag icons |
 | `image_picker` | Pick images from gallery/camera |
 
 ---
@@ -210,9 +153,185 @@ This app is built using **Clean Architecture** pattern, which separates the code
 | `equatable` | Value equality |
 | `intl` | Internationalization & localization |
 | `flutter_localization` | Multi-language support |
-| `purchases_flutter` | In-app purchases |
 
 </details>
+
+---
+
+## 🏗️ Architecture
+
+This app is built using **Clean Architecture** pattern:
+
+| Layer | Responsibility |
+|-------|---------------|
+| 📊 **Data** | Remote & Local data sources, Models, Repository implementations |
+| 🧠 **Domain** | Entities, Repository interfaces, Use cases (Business logic) |
+| 🎨 **Presentation** | UI Screens, Widgets, Bloc/Cubit State Management |
+
+<details>
+<summary>📂 View Full Project Structure</summary>
+
+```
+📦 lib
+ ├── 📄 bloc_observer.dart
+ ├── 📄 firebase_options.dart
+ ├── 📄 injectionContainer.dart
+ ├── 📄 main.dart
+ │
+ ├── 📂 env
+ │   ├── 📄 env.dart
+ │   └── 📄 env.g.dart
+ │
+ ├── 📂 core
+ │   ├── 📄 services.dart
+ │   ├── 📂 constants
+ │   ├── 📂 error
+ │   ├── 📂 extensions
+ │   ├── 📂 network
+ │   ├── 📂 strings
+ │   ├── 📂 utils
+ │   │   ├── 📂 Localization
+ │   │   ├── 📂 styles
+ │   │   └── 📂 theme
+ │   └── 📂 widgets
+ │
+ └── 📂 features
+     ├── 📂 auth
+     │   ├── 📂 data
+     │   ├── 📂 domain
+     │   └── 📂 presentation
+     │       ├── 📂 blocs
+     │       ├── 📂 pages
+     │       └── 📂 widgets
+     │
+     ├── 📂 home
+     │   ├── 📂 data
+     │   ├── 📂 domain
+     │   └── 📂 presentation
+     │
+     ├── 📂 lounge
+     │   ├── 📂 data
+     │   ├── 📂 domain
+     │   └── 📂 presentation
+     │
+     ├── 📂 profile
+     │   ├── 📂 data
+     │   ├── 📂 domain
+     │   └── 📂 presentation
+     │
+     └── 📂 streaming
+         ├── 📂 data
+         ├── 📂 domain
+         └── 📂 presentation
+```
+
+</details>
+
+---
+
+## 📸 Screenshots
+
+### 🔐 Login
+<table>
+  <tr>
+    <td align="center">
+      <strong>Login</strong><br/><br/>
+      <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/login_image-portrait.png" width="250"/>
+    </td>
+    <td align="center">
+      <strong>Forgot Password</strong><br/><br/>
+      <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/forget_password-portrait.png" width="250"/>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 📝 Sign Up
+<table>
+  <tr>
+    <td align="center">
+      <strong>Sign Up</strong><br/><br/>
+      <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/register_image-portrait.png" width="220"/>
+    </td>
+    <td align="center">
+      <strong>Pick Photo</strong><br/><br/>
+      <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/pickimage_image-portrait.png" width="220"/>
+    </td>
+    <td align="center">
+      <strong>Birth Date</strong><br/><br/>
+      <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/pickbirthday_image-portrait.png" width="220"/>
+    </td>
+    <td align="center">
+      <strong>Pick Country</strong><br/><br/>
+      <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/pickcountry_image-portrait.png" width="220"/>
+    </td>
+    <td align="center">
+      <strong>Gender</strong><br/><br/>
+      <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/pickgender_image-portrait.png" width="220"/>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🎥 Streaming
+<table>
+  <tr>
+    <td align="center">
+      <strong>No Live</strong><br/><br/>
+      <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/home_image-portrait.png" width="250"/>
+    </td>
+    <td align="center">
+      <strong>Users Available</strong><br/><br/>
+      <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/home2_image-portrait.png" width="250"/>
+    </td>
+    <td align="center">
+      <strong>Live Stream</strong><br/><br/>
+      <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/live_image-portrait.png" width="250"/>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 💬 Lounge & Chat
+<table>
+  <tr>
+    <td align="center">
+      <strong>Lounge</strong><br/><br/>
+      <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/lounge_image-portrait.png" width="250"/>
+    </td>
+    <td align="center">
+      <strong>Messages</strong><br/><br/>
+      <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/messages_image-portrait.png" width="250"/>
+    </td>
+    <td align="center">
+      <strong>Chat</strong><br/><br/>
+      <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/chat_image-portrait.png" width="250"/>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 👤 Profile & Settings
+<table>
+  <tr>
+    <td align="center">
+      <strong>Profile</strong><br/><br/>
+      <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/profile_image-portrait.png" width="250"/>
+    </td>
+    <td align="center">
+      <strong>Settings</strong><br/><br/>
+      <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/setting_image-portrait.png" width="250"/>
+    </td>
+    <td align="center">
+      <strong>Language</strong><br/><br/>
+      <img src="https://raw.githubusercontent.com/Omarsalama2001/linko/main/lib/assets/screenshots/lang1_image-portrait.png" width="250"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
